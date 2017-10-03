@@ -22,7 +22,11 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-gem 'haml'
+# We still need sass-rails somehow
+gem 'sass-rails', '~> 5.0'
+
+gem 'webpacker', '~> 3.0'
+
 gem 'sidekiq'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
